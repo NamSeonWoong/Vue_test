@@ -23,14 +23,6 @@
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile router :to="{name:'users',
-         params:{
-           userId:4321,
-           name:'선웅'
-          },
-          query: {
-            group: 'member',
-            category: 'trial'
-          }
          }" exact>
           <v-list-tile-action>
             <i class="fas fa-user"></i>
