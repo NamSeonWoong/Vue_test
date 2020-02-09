@@ -30,6 +30,9 @@ export default new Router({
     {
       path: '/users',
       name: 'users',
+      beforeEnter: ()=> {
+        
+      },
       component: Users,
       children:[
         {
